@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            Mysite
+        </div>
+        <div class="links">
+            <div class="link">
+                <a href="login.html">Log In</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="c1"></div>
+        <div class="Mainc">
+            <fieldset>
+                <legend>Sign In</legend>
+                <form action="../../php/signin.php" method="post">
+                    <table>
+                        <tr>
+                            <td>First name:</td><td><input type="text" name="fn"></td>
+                        </tr>
+                        <tr>
+                            <td>Last name:</td><td><input type="text" name="ln"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td><td><input type="text" name="em"></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td><td><input type="password" name="pw"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender:</td>
+                            <td>
+                                <input type="radio" name="g" value="male">Male
+                                <input type="radio" name="g" value="female">Female
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="submit" name="s">
+                    <input type="reset" value="reset">
+                </form>
+            </fieldset>
+        </div>
+        <div class="c2"></div>
+    </div>
+</body>
+</html>
