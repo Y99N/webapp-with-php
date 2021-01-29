@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/*--------------------BOUTH-------------*/
+.nav{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    padding: 20px 10px;
+}
+.logo{
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: tomato;
+}
+.body{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.c1{
+    height: 90vh;
+    width: 100%;
+}
+.Mainc{
+    height: 90vh;
+    width: 100%;
+}
+.c2{
+    height: 90vh;
+    width: 100%;
+}
+input[type=text],input[type=password]
+{
+    width: 150%;
+}
+fieldset{
+    padding: 5px;
+}
